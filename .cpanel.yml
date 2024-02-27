@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/clom3316/public_html/.app/tesCRUDgit/
+    - /bin/cp tes1.txt $DEPLOYPATH
+    - /bin/cp tes2.txt $DEPLOYPATH
